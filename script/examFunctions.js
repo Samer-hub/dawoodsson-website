@@ -1,9 +1,5 @@
 'use strict';
-/*
-    Koden du erhöll när du anmälde dig till tentamen är: 
-    Jag intygar att det är mitt lösning och jag har inte har samarbetat och inte heller tagit hjälp av någon annan person
-    Samer Dawood: 810220-4750.
-*/
+
 
 function addMainFunctionality() {
     document.querySelector("#spela").addEventListener("click", function(oEvent) {
@@ -33,14 +29,7 @@ function createImgElements() {
         img.setAttribute('alt', oGameData.ghost.getAttribute('alt'));
         img.setAttribute('src', oGameData.ghost.getAttribute('src'));
         img.setAttribute('style', 'position: absolute; left: '+ oGameData.left().toString() + 'px; top:' + oGameData.top().toString() + 'px;');
-        /*
-            element { 
-                position : absolute;
-                left : Npx ;
-                top : Mpx ; 
-
-            } 
-        */
+       
     }
 }
 
